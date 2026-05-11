@@ -2,7 +2,7 @@
 body {
   text-align: center;
   font-family: Arial, sans-serif;
-  padding-top: 20px;
+  padding-top: 0px;
   background: linear-gradient(135deg, #d3d0d0, #313336);
 }
 
@@ -42,7 +42,7 @@ body {
   border: 4px solid black;
 
   width: 500px;
-  height: 500px;
+  height: 485px;
 
   padding: 10px;
   margin: 20px auto;
@@ -76,7 +76,7 @@ body {
 #random-caption {
   margin-top: 10px;
 
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 
   color: #333;
