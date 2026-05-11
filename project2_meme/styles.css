@@ -1,0 +1,22 @@
+body {
+  background-color: #c8a62d;
+}
+
+#wrapper div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 400px;
+  max-width: 100%;
+  margin:auto;
+}
+
+h1 {
+  flex: 1;
+  min-width: 200px;
+}
