@@ -1,0 +1,83 @@
+/* Write code below 💖 */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding-top: 20px;
+  background: linear-gradient(135deg, #d3d0d0, #313336);
+}
+
+#generator-button {
+  padding: 15px 30px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: xx-large;
+
+  background: linear-gradient(135deg, #4fc3f7, #81e6ff);
+
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#generator-button:hover {
+  background: linear-gradient(135deg, #81e6ff, #b3f3ff);
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 6px 20px rgba(129, 230, 255, 0.4);
+}
+
+#generator-button:active {
+  transform: scale(0.95) translateY(-1px);
+
+  box-shadow: 0 2px 8px rgba(129, 230, 255, 0.3);
+}
+
+#meme-wrapper {
+  border: 4px solid black;
+
+  width: 500px;
+  height: 500px;
+
+  padding: 10px;
+  margin: 20px auto;
+
+  border-radius: 12px;
+
+  background: linear-gradient(
+    45deg,
+    #71f8e2,
+    #92f7e7,
+    #a0f6e9,
+    #b7ebf4,
+    #c8f5f9,    
+    #d9f0fe
+  );
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+#random-meme {
+  width: 100%;
+  max-height: 420px;
+
+  object-fit: cover;
+
+  border-radius: 8px;
+
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+#random-caption {
+  margin-top: 10px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  color: #333;
+}
